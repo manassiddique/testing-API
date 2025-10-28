@@ -21,7 +21,8 @@ A simple FastAPI-based fake API for testing purposes. This project provides mock
 
 3. **Run the API server:**
    ```bash
-   poetry run uvicorn src.main:app --host 0.0.0.0 --port 8000 --reload
+   poetry run uvicorn src.main:app  --port 8000 --reload
+   
    ```
 
    The API will be available at `http://localhost:8000`.
