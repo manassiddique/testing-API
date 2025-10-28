@@ -14,7 +14,8 @@ class Task(BaseModel):
 
 # In-memory list (data reset hota hai jab server restart hota hai)
 tasks = [
-    Task(id=1, text="Learn FastAPI", done=False),
+    Task(id=1, text="Learn FastAPI", d
+         one=False),
     Task(id=2, text="Build a To-Do App", done=False),
     Task(id=3, text="Test the App", done=False)
 ]
@@ -35,8 +36,10 @@ def get_pornhub():
 
 @app.get("/student_list")
 def get_student_list():
-    return{"Hashim Amla  Teacher "
-           "Anas Siddique Student"
-           "Sami Ullah Elactritian"
-           "Captain Talha Umair"
-           "DVM Touseef Khalid"}
+    return{"Hashim Sardar"
+           "Anas Siddique"
+           "Sami Ullah"
+           "Talha Umair"
+           "Touseef Khalid"
+           "Zarrar patwari"}
+
