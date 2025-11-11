@@ -21,8 +21,7 @@ A simple FastAPI-based fake API for testing purposes. This project provides mock
 
 3. **Run the API server:**
    ```bash
-   poetry run uvicorn src.main:app  --port 8000 --reload
-   
+http://127.0.0.1:8000   
    ```
 
    The API will be available at `http://localhost:8000`.
@@ -48,3 +47,5 @@ A simple FastAPI-based fake API for testing purposes. This project provides mock
 - `tests/`: Test files.
 - `pyproject.toml`: Project configuration and dependencies.
 - `poetry.lock`: Locked dependencies.
+
+poetry run uvicorn src.main:app  --port 8000 --reload
